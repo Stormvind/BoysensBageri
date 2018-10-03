@@ -1,4 +1,4 @@
-/* Eftersom olika webbl‰sare giver olika v‰rden automatiskt, nollst‰ller jag v‰rdena h‰r */
+/* Eftersom olika webbl√§sare giver olika v√§rden automatiskt, nollst√§ller jag v√§rdena h√§r */
 /* Ludvig B uppgift 2 */
 *
 {
@@ -18,10 +18,10 @@ noscript
 	color: red;
 }
 
-/* Denna CSS g‰ller endast fˆr smÂ sk‰rmar, som telefoners */
-@media only screen and (max-width: 600px)
+/* Denna CSS g√§ller endast f√∂r sm√• sk√§rmar, som telefoners */
+@media only screen and (max-width: 640px)
 {
-	/* Allt innehÂll finns i denna div */
+	/* Allt inneh√•ll finns i denna div */
 	#wrapper
 	{
 		width: 100%;
@@ -123,6 +123,43 @@ noscript
 		padding-left: 0.5em;
 	}
 	
+	#breadMenu
+	{
+		font-size: 16px;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		width: 55%;
+	}
+	
+	#amountMenu
+	{
+		position: relative;
+		right: 3px;
+		font-size: 16px;
+		width: auto;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	
+	#timeMenu
+	{
+		display: block;
+		font-size: 16px;
+		width: 55%;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	
+	.orderInputs
+	{
+		width: 55%;
+	}
+	
+	#submitButton
+	{
+		width: 55%;
+	}
+	
 	#tableArea
 	{
 		height: 20em;
@@ -178,14 +215,45 @@ noscript
 		font: inherit;
 	}
 	
+	#orderButtons button:focus
+	{
+		background-color: #26231c;
+		color: #e15bb1;
+		outline: 0;
+	}
+	
+	#orderButtons button:hover
+	{
+		background-color: #26231c;
+		color: #e15bb1;
+	}
+		
+	#orderButtons button:active
+	{
+		background-color: #e15bb1;
+		color: #26231c;
+	}
+	
+	.register
+	{
+		box-sizing: border-box;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		margin-left: 0.5em;
+		display: block;
+		width: 50%;
+		height: 2.5em;
+		font-size: 1em;
+	}
+	
 	input
 	{
 		box-sizing: border-box;
 		margin: 0.5em;
 		display: block;
 		width: 50%;
-		height: 2em;
-
+		height: 2.5em;
+		font-size: 1em;
 	}
 	
 	label
@@ -214,10 +282,10 @@ noscript
 	}
 }
 
-/* Denna CSS g‰ller endast fˆr mellanstora sk‰rmar, som ipads */
-@media screen and (min-width: 600px) and (max-width: 959px)
+/* Denna CSS g√§ller endast f√∂r mellanstora sk√§rmar, som ipads */
+@media screen and (min-width: 641px) and (max-width: 959px)
 {
-	/* Allt innehÂll finns i denna div */
+	/* Allt inneh√•ll finns i denna div */
 	#wrapper
 	{
 		width: 100%;
@@ -357,6 +425,46 @@ noscript
 		width: 100%;
 	}
 	
+	th
+	{
+		padding-left: 0.5em;
+		padding-top: 0.5em;
+		text-align: left;
+	}
+	
+	td
+	{
+		padding-left: 0.5em;
+	}
+	
+	#breadMenu
+	{
+		font-size: 16px;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		width: 55%;
+	}
+	
+	#amountMenu
+	{
+		position: relative;
+		right: 3px;
+		font-size: 16px;
+		width: auto;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	
+	#timeMenu
+	{
+		display: block;
+		font-size: 16px;
+		width: 55%;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	
+	
 	.orderInputs
 	{
 		width: 55%;
@@ -365,7 +473,6 @@ noscript
 	#submitButton
 	{
 		width: 55%;
-		
 	}
 	
 	#orderButtons
@@ -457,12 +564,11 @@ noscript
 		color: #26231c;
 		font-size: 4em;
 		padding: 0.25em;
-		margin: 0.25;
 	}
 	
 }
 
-/* Den h‰r CSSen g‰ller endast fˆr stora sk‰rmar, som vanliga datorers */
+/* Den h√§r CSSen g√§ller endast f√∂r stora sk√§rmar, som vanliga datorers */
 @media only screen and (min-width: 960px)
 {
 	body
@@ -471,7 +577,7 @@ noscript
 		background-color: #f6f5ea;
 	}
 	
-	/* Allt innehÂll finns i denna div */
+	/* Allt inneh√•ll finns i denna div */
 	#wrapper
 	{
 		background-color: #f8f7ec;
@@ -630,8 +736,6 @@ noscript
 
 		width: 55%;
 	}
-	
-	
 	
 	#amountMenu
 	{
