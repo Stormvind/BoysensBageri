@@ -8,9 +8,10 @@
 
 body
 {
-	font-family: Verdana;
-	background-color: #FFFFFF;
+	font-family: verdana, trebuchet ms, tahoma, sans-serif;
 	color: #26231c;
+	font-size: 16px;
+	background-color: #f6f5ea;
 }
 
 noscript
@@ -333,9 +334,9 @@ noscript
 		flex-shrink: 1;
 		justify-content: center;
 		text-decoration: none;
-		font-size: 1.6em;
-		padding-top: 0.115em;
-		padding-bottom: 0.115em;
+		font-size: 1.2em;
+		padding-top: 0.59em;
+		padding-bottom: 0.59em;
 	}
 	
 	.primaryNavigationMenu a:visited
@@ -363,6 +364,7 @@ noscript
 		
 	main p
 	{
+		margin-left: 0.5em;
 		padding-top: 0.33em;
 		padding-bottom: 0.33em;
 	}
@@ -390,21 +392,21 @@ noscript
 	{
 
 		width: 25%;
-		height: 500px;
+		height: 31.25em;
 	}
 	
 	#buttonArea
 	{
 
 		width: 13.2%;
-		height: 500px;
+		height: 31.25em;
 	}
 	
 	#tableArea
 	{
 		
 		width: 61.8%;
-		height: 500px;
+		height: 31.25em;
 	}
 	
 	select
@@ -447,6 +449,7 @@ noscript
 	
 	#amountMenu
 	{
+		margin-left: 0.25em;
 		position: relative;
 		right: 3px;
 		font-size: 16px;
@@ -571,12 +574,6 @@ noscript
 /* Den här CSSen gäller endast för stora skärmar, som vanliga datorers */
 @media only screen and (min-width: 960px)
 {
-	body
-	{
-		font-size: 16px;
-		background-color: #f6f5ea;
-	}
-	
 	/* Allt innehåll finns i denna div */
 	#wrapper
 	{
@@ -615,7 +612,7 @@ noscript
 	{
 		text-align: center;
 		flex: 1 1 auto;
-		margin-left: 0.125em;
+		margin-left: 1px;
 		background-color: #26231c;
 	}
 	
@@ -627,9 +624,9 @@ noscript
 		flex-shrink: 1;
 		justify-content: center;
 		text-decoration: none;
-		font-size: 2em;
-		padding-top: 0.115em;
-		padding-bottom: 0.115em;
+		font-size: 1.2em;
+		padding-top: 0.82em;
+		padding-bottom: 0.82em;
 	}
 	
 	.primaryNavigationMenu a:hover
@@ -652,6 +649,7 @@ noscript
 	
 	main p
 	{
+		margin-left: 0.5em;
 		padding-top: 0.33em;
 		padding-bottom: 0.33em;
 	}
@@ -683,21 +681,21 @@ noscript
 	{
 
 		width: 25%;
-		height: 500px;
+		height: 32em;
 	}
 	
 	#buttonArea
 	{
 
 		width: 13.2%;
-		height: 500px;
+		height: 32em;
 	}
 	
 	#tableArea
 	{
 		
 		width: 61.8%;
-		height: 500px;
+		height: 32em;
 	}
 	
 	select
@@ -754,6 +752,7 @@ noscript
 	
 	.orderInputs
 	{
+
 		width: 55%;
 	}
 	

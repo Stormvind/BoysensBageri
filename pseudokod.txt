@@ -1,0 +1,43 @@
+addBreadItem()
+{
+	// Gå igenom alla rader och kolla om brödtypen som är vald finnes på en av dem. Om den finns, addera in på den raden.  Kolla också om raden är ledig.  Om den är det, spara indexet i en variabel. Om brödtypen inte
+	//fanns på någon rad, lägg in det nya brödet på det lediga indexet.
+	
+	var success = false;
+	var i = 0;
+	var unoccupiedRow = -1
+	
+	while (i <= tableRows.length)
+	{
+		if (tableRows[i].childNodes[0].innerHTML == "")
+		{
+			unoccupiedRow = i;
+		}
+		if (breadMenu.value == tableRows[i].childNodes[0].innerHTML) // kolla efter matchande typer
+		{
+			Addera tillsammans på tableRows[i];
+			success = true;
+		}		
+		i++;
+	}
+	
+	if (success == false)
+	{
+		Lägg in tableRows[unoccupiedRow];
+	}
+}
+
+
+
+removeBreadItem()
+{
+	// Gå igenom alla rader och kolla om brödtypen som är vald finns på en av den. Om den finns, subtrahera mängeden vald från den raden. Om resultatet är 0 eller negativt, blankställ innerHTML.
+}
+
+
+
+
+placeOrder
+{
+	// Om en tid är vald och minst en rad innehåller något, 
+}

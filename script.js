@@ -192,7 +192,7 @@ function placeOrder()
 	
 	if (success == true)
 	{
-		window.location.assign("purchased.html");
+		window.location.assign("bestallt.html");
 	}
 	else
 	{
